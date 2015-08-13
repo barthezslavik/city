@@ -1,0 +1,10 @@
+= simple_form_for(@town) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :population
+    = f.input :area
+
+  .form-actions
+    = f.button :submit
